@@ -38,6 +38,9 @@ int main(){
     Individual Linh(human2);
     Individual *Hannah_1=execute(&Hannah,&A,k1);
     Individual *Linh_1=execute(&Linh,&B,k2);
+ 
+    
+
     cout<<Hannah_1->getString()<<" "<<Linh_1->getString()<<" "<<Linh_1->getMaxOnes();
 
 }
